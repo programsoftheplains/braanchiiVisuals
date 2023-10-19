@@ -1,0 +1,56 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: beige;
+}
+
+.headUpper{
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 98%;
+}
+
+.navLinks{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.navLinks>li{
+  margin: 5px;
+}
+
+.headLower{
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+div{
+  border: 1px dotted black;
+}
