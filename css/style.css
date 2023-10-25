@@ -11,17 +11,46 @@
 /* LAYOUT
 /*******************************************/
 
+
+
+
+/**TEST STYLES FOR VISUAL ID PURPOSES**/
+/**delete later**/
+
+div{
+  border: 1px dotted black;
+}
+
+
+
+/*****************/
+/*Header Styling*/
+/*****************/
+
 .heading{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: beige;
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/What-is-Stock-Photography_P1_mobile?$pjpeg$&jpegSize=200&wid=720");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.heading>*{
+  color: white;
+}
+
+/*links inherit color from parent*/
+
+a{
+  color: inherit;
+  text-decoration: none;
 }
 
 .headUpper{
   width: 100%;
-  background-color: azure;
   display: flex;
   justify-content: space-between;
   margin: 10px;
@@ -35,22 +64,55 @@
 }
 
 .navLinks>li{
-  margin: 5px;
+  margin: 15px;
 }
 
 .headLower{
   width: 100%;
-  background-color: azure;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 300px;
 }
+
+
+/*****************/
+/*About Blurb Styling*/
+/*****************/
+
+.aboutBlurb{
+  margin: auto;
+  padding: 100px;
+  text-align: center;
+
+}
+
+.aboutBlurb>span{
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+
+
+/*****************/
+/*Photo Scroller*/
+/*****************/
+
+.portfolioSample{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Frog_on_palm_frond.jpg/1200px-Frog_on_palm_frond.jpg");
+  background-size: cover;
+}
+
+
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-div{
-  border: 1px dotted black;
-}
+
