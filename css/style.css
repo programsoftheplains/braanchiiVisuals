@@ -21,7 +21,21 @@ div{
   border: 1px dotted black;
 }
 
+*{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 
+/*****************/
+/*General Styles*/
+/*****************/
+
+.roundStyle{
+  border: 1px;
+  background-color: rgba(95, 94, 94, 0.8);
+  padding: 1%;
+  border-radius: 30px;
+  font-weight: 200;
+}
 
 /*****************/
 /*Header Styling*/
@@ -84,18 +98,16 @@ a{
   margin: auto;
   padding: 100px;
   text-align: center;
-
 }
 
 .aboutBlurb>span{
   font-size: x-large;
-  font-weight: lighter;
 }
 
 
 
 /*****************/
-/*Photo Scroller*/
+/*Photo Scroller / Portfolio Sample*/
 /*****************/
 
 .portfolioSample{
@@ -106,7 +118,18 @@ a{
   height: 500px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Frog_on_palm_frond.jpg/1200px-Frog_on_palm_frond.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: center;
 }
+
+.portfolioSample>*{
+  color: white;
+  margin: 30px;
+  font-size: x-large;
+}
+
 
 
 
