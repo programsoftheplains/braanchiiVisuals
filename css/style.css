@@ -132,7 +132,93 @@ a{
 
 
 
+/*****************/
+/*Booking Div*/
+/*****************/
 
+.bookingDiv{
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.placeHolder{
+  width: 90%;
+  max-width: 800px;
+  max-height: 90%;
+}
+
+
+/*****************/
+/*Pricing Info Div*/
+/*****************/
+
+.spacer{
+  height: 80px;
+  text-align: center;
+}
+
+
+/*****************/
+/*Merch Div*/
+/*****************/
+
+.storeDiv{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  align-items: center;
+  width: 100%;
+  background-image: url("https://c8.alamy.com/comp/M0PBN8/united-statesnew-yorknew-york-citylower-manhattanthe-high-line-parkt-M0PBN8.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-end;
+  height: 600px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.storeDiv>*{
+  margin: 40px;
+  font-size: x-large;
+}
+
+
+
+/*****************/
+/*Socials*/
+/*****************/
+
+.socialSection{
+  background-color: rgb(92, 92, 92);
+  height: 150px;
+}
+
+.socialList{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.socialList>*{
+  margin: 10px;
+}
+
+
+
+/*****************/
+/*Footer*/
+/*****************/
+
+footer{
+  background-color: rgb(31, 31, 31);
+  height: 100px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
