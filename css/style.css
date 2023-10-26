@@ -29,6 +29,9 @@ div{
 /*General Styles*/
 /*****************/
 
+/*collect general styling standards into one public css page, have individual page styles in seperate css files*/
+/*Box Model Hack, Test Styling, General Styling, Footers, Headers, Text standards should be collected in one place*/
+
 .roundStyle{
   border: 1px;
   background-color: rgba(95, 94, 94, 0.8);
@@ -36,6 +39,7 @@ div{
   border-radius: 30px;
   font-weight: 200;
 }
+
 
 /*****************/
 /*Header Styling*/
@@ -219,6 +223,9 @@ footer{
   background-color: rgb(31, 31, 31);
   height: 100px;
 }
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
