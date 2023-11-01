@@ -49,6 +49,7 @@ div{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/What-is-Stock-Photography_P1_mobile?$pjpeg$&jpegSize=200&wid=720");
   background-size: cover;
@@ -90,7 +91,6 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 300px;
 }
 
 
