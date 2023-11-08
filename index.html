@@ -12,6 +12,11 @@
     <!-- social icons-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- slideshow style and script-->
+    <link rel="stylesheet" href="css/slideshow.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="slideshow.js" defer></script>
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,11 +49,33 @@
         <span>About Blurb Text "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</span>
     </div>
 
-    <div class="portfolioSample">
-        <div class="">
-            <span>scrolling viewer for sample photos</span>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img class="imageStyle" src="assets/dark-stock-photos3.jpg">
+          <div class="text"><a href="" class="roundStyle">Gallery</a></div>
         </div>
-        <a href="" class="roundStyle">Gallery Link</a>
+      
+        <div class="mySlides fade">
+          <img class="imageStyle" src="assets/free-photo-of-long-tailed-tit-bird-perched-on-a-tree-twig-with-an-insect-in-its-beak.jpeg">
+          <div class="text"><a href="" class="roundStyle">Gallery</a></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img class="imageStyle" src="assets/gratisography-tiny-parrot-free-stock-photo-800x525.jpg">
+          <div class="text"><a href="" class="roundStyle">Gallery</a></div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dotContainer" style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
     </div>
 
     <div class="bookingDiv">
@@ -68,6 +95,7 @@
     </div>
 
     <section class="socialSection">
+        <!--Change to Ajax Font-Awesome Library-->
         <ul class="socialList">
             <li class="faceBookIcon">
                 <a href="">

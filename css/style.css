@@ -111,32 +111,6 @@ a{
 
 
 /*****************/
-/*Photo Scroller / Portfolio Sample*/
-/*****************/
-
-.portfolioSample{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 500px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Frog_on_palm_frond.jpg/1200px-Frog_on_palm_frond.jpg");
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-position: center;
-}
-
-.portfolioSample>*{
-  color: white;
-  margin: 30px;
-  font-size: x-large;
-}
-
-
-
-/*****************/
 /*Booking Div*/
 /*****************/
 

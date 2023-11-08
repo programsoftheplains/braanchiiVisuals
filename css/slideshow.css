@@ -12,24 +12,25 @@ html, body {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  height: 400px;
+  height: 500px;
   width: 100%;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  height: 500px;
 }
 
 .mySlides>image{
-    max-height: 400px;
+    max-height: 500px;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .imageStyle{
     width: 110%;
-    max-height: 400px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -62,25 +63,29 @@ html, body {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 40px;
   width: 100%;
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.roundStyle{
+  color: aliceblue;
+  font-size: 1.5em;
 }
 
+
+
 /* The dots/bullets/indicators */
+
+.dotContainer{
+  position: absolute;
+  bottom: 470px;
+  width: 100%;
+  text-align: center;
+}
+
 .dot {
   cursor: pointer;
   height: 15px;
