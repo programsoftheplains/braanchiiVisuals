@@ -206,3 +206,8 @@ footer{
 /*******************************************/
 
 
+iframe{
+  border: solid 10px red;
+  min-height: 800px;
+  min-width: 80%;
+}
