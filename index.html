@@ -31,8 +31,6 @@
         <div class="headUpper">
             <img src="" alt="logo">
             <ul class="navLinks">
-                <li><a href="">Home</a></li>
-                <li><a href="">Booking</a></li>
                 <li><a href="portfolio.html">Gallery</a></li>
                 <li><a href="">Socials</a></li>
                 <li><a href="">Store</a></li>
@@ -41,9 +39,17 @@
         </div>
         <div class="headLower">
             <h1>BRAANCHII VISUALS</h1>
-            <h2 class="roundStyle">Booking link/button</h2>
+            <h2 class="roundStyle">
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jonathanp-phelps-business'});return false;">Booking</a>
+                <!-- Calendly link widget end -->
+            </h2>
         </div>
     </header>
+
+
 
     <div class="aboutBlurb">
         <span>About Blurb Text "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</span>
@@ -53,17 +59,17 @@
 
         <div class="mySlides fade">
           <img class="imageStyle" src="assets/dark-stock-photos3.jpg">
-          <div class="text"><a href="" class="roundStyle">Gallery</a></div>
+          <div class="text"><a href="portfolio.html" class="roundStyle">Gallery</a></div>
         </div>
       
         <div class="mySlides fade">
           <img class="imageStyle" src="assets/free-photo-of-long-tailed-tit-bird-perched-on-a-tree-twig-with-an-insect-in-its-beak.jpeg">
-          <div class="text"><a href="" class="roundStyle">Gallery</a></div>
+          <div class="text"><a href="portfolio.html" class="roundStyle">Gallery</a></div>
         </div>
       
         <div class="mySlides fade">
           <img class="imageStyle" src="assets/gratisography-tiny-parrot-free-stock-photo-800x525.jpg">
-          <div class="text"><a href="" class="roundStyle">Gallery</a></div>
+          <div class="text"><a href="portfolio.html" class="roundStyle">Gallery</a></div>
         </div>
       
         <!-- Next and previous buttons -->
@@ -78,9 +84,10 @@
 
     </div>
 
-    <div class="bookingDiv">
-        <img src="https://images.ctfassets.net/k0lk9kiuza3o/14nK1b29Hiuap1KI53hP48/e6dd5826ffde70cd00174bbe659fec40/Calendly-Booking-Conversion.png?w=1185&h=940&q=85&fm=png" class="placeHolder" alt="">
-    </div>
+    <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/jonathanp-phelps-business" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
 
     <div class="spacer">
         <span>fill text... pricing link?</span>
