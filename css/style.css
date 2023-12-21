@@ -131,6 +131,11 @@ a{
   max-height: 90%;
 }
 
+.bookingDiv{
+  border: 0.05em solid red;
+}
+
+
 
 /*****************/
 /*Pricing Info Div*/
@@ -209,10 +214,35 @@ footer{
 /*******************************************/
 
 
-.flickr-embed-frame{
-  border: solid 10px red;
-  min-width: 800px;
+
+/***************************
+/* MOBILE DISPLAY
+/**************************/
+
+
+@media (max-width:700px) {
+
+  .calendly-inline-widget{
+    display: none;
+  }
+
+  .bookingDiv{
+    height: auto;
+  }
+
 }
 
-.flickrwrap {position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;}
-.flickrwrap iframe {position:absolute;top:0;left:0;width:100%;height:100%;}
+/***************************
+/* LARGE DISPLAY
+/**************************/
+
+/***************************
+/* STANDARD DISPLAY
+/**************************/
+
+@media (min-width:700px) {
+  #mobileWidget{
+    display: none;
+  }
+
+}

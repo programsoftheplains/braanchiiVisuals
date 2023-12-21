@@ -15,7 +15,15 @@
 
 
 
-
+.flickr-embed-frame{
+    border: solid 10px red;
+    min-width: 800px;
+  }
+  
+  .flickrwrap {position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;}
+  .flickrwrap iframe {position:absolute;top:0;left:0;width:100%;height:100%;}
+  
+  
 
 
 

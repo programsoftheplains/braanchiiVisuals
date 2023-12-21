@@ -8,7 +8,6 @@
     <!-- external CSS link -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/portfolio.css">
 
     <!-- social icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
@@ -84,10 +83,24 @@
 
     </div>
 
-    <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/jonathanp-phelps-business" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+
+    <div class="bookingDiv">
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/jonathanp-phelps-business" style="min-width:95%;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+
+        <h2 class="roundStyle" id="mobileWidget">
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jonathanp-phelps-business'});return false;">Booking</a>
+            <!-- Calendly link widget end -->
+        </h2>
+
+
+    </div>
+    
 
     <div class="spacer">
         <span>fill text... pricing link?</span>
@@ -102,7 +115,6 @@
     </div>
 
     <section class="socialSection">
-        <!--Change to Ajax Font-Awesome Library-->
         <ul class="socialList">
             <li class="faceBookIcon">
                 <a href="">
